@@ -1,14 +1,21 @@
 @import url('bootstrap.css');
-@import url('bootstrap.min.css');
-@import url('fonts.css');
-
 *{
   margin: 0;
   padding: 0;
 
 }
-header{
-  background: url('images/assets/backgrounds/h_img.jpg');
+.hdrI{
+  background: url('../images/assets/backgrounds/h_img.jpg');
   background-size: cover;
   background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.logo{
+margin-left: auto;
+margin-right: auto;
+ margin-top: 10%;
+}
+h1{
+  height: auto;
 }
