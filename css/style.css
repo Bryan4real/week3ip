@@ -81,3 +81,23 @@ h1{
 .col-md-4 h6{
   margin-top: 3%;
 }
+#design p{
+  display: none;
+}
+#devt p{
+  display: none;
+}
+#ptm p{
+  display: none;
+}
+div #port{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#port img{
+  margin-left: 5px;
+}
+.col-md-3{
+  image-orientation: center
+}
