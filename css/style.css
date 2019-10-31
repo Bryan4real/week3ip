@@ -17,5 +17,50 @@ margin-right: auto;
  margin-top: 10%;
 }
 h1{
+  margin-top: 20px;
   height: auto;
+}
+.mousec{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+#aboutus{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#aboutus p{
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#aboutus h2{
+  margin-left: auto;
+  margin-right: auto;
+}
+#service h2{
+  margin-top: 8%;
+  margin-left: 45%;
+  transform: translate(-3%, -45%);
+
+}
+#service p{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+
+}
+#service{
+  margin-top: 1%;
+  text-align: center;
+  background: url('../images/assets/backgrounds/s_image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  color: #fff;
 }
