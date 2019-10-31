@@ -1,3 +1,16 @@
 @import url('bootstrap.css');
 @import url('bootstrap.min.css');
 @import url('fonts.css');
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  background: url('images/assets/backgrounds/h_img.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+
+}
