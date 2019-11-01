@@ -103,11 +103,18 @@ div #port{
 .col-md-3{
   margin-top: 2%;
   margin-bottom: 2%;
+  text-align: center;
 }
 .col-md-3 img{
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+}
+.col-md-3 h6{
+  display: none;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
 }
 #subs{
   background: url('../images/assets/backgrounds/c_image.jpg');
@@ -124,7 +131,7 @@ div #port{
   }
 .box{
   margin-top: 8%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   background: none;
   margin: auto;
   text-align: center;
@@ -139,9 +146,7 @@ div #port{
   border-radius: 12px;
   text-align: center;
   color: #fff;
-  margin-bottom: 3%;
   margin: auto;
-
 }
 #name, #email{
 margin-top: 1%;
