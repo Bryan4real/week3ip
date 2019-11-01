@@ -137,11 +137,11 @@ div #port{
   background: gray;
   width: 150px;
   border-radius: 12px;
-  display: flex;
   text-align: center;
   color: #fff;
-  margin: auto;
   margin-bottom: 3%;
+  margin: auto;
+
 }
 #name, #email{
 margin-top: 1%;
@@ -187,4 +187,9 @@ margin-bottom: 3%;
 }
 .social img{
   margin-left: 20px;
+}
+#ftr{
+  display: block;
+  text-align: center;
+  margin-top: 2%;
 }
