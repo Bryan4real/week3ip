@@ -129,25 +129,42 @@ div #port{
   margin: auto;
   text-align: center;
 }
+.box h4{
+  color: #fff;
+  margin-top: 4%;
+}
+.box #submit{
+  background: gray;
+  width: 150px;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 3%;
+}
 #name, #email{
-margin-top: 5%;
+margin-top: 1%;
+margin-bottom: 3%;
 }
 #msg{
   margin-bottom: 5%;
+  height: 150px;
+  width: 80%;
 }
 .box #name{
   height: 35px;
-  width:40%;
+  width:30%;
   line-height: 8px;
   float: left;
-  margin-left: 7%;
+  margin-left: 15%;
 }
 .box #email{
   height: 35px;
-  width:40%;
+  width:30%;
   line-height: 8px;
   float: right;
-  margin-right: 7%;
+  margin-right: 15%;
 }
 .box input,textarea{
   background: none;
