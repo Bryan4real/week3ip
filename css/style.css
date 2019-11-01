@@ -101,6 +101,7 @@ div #port{
 /* form */
 
 .col-md-3{
+  position: relative;
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
