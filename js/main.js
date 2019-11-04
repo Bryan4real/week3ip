@@ -1,3 +1,16 @@
+$('.box').submit(function(event){
+  let yname = $('input#name').val();
+  let mail = $('input#email').val();
+  let msg = $('textarea#msg').val();
+
+  $('.name').text(yname);
+  $('.email').text(mail);
+  $('.msg').text(yname);
+
+    event.preventDefault();
+});
+
+
 
 $('#design').click(function(){
 $('#design p').toggle();
