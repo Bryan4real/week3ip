@@ -34,28 +34,28 @@ $('#ptm p').toggle();
 $('#ptm img').toggle();
 });
 $('.content #w1').hover(function(){
-  $('#hd1').toggle();
+  $('#hd1').toggle(3000);
 });
 $('.content #w2').hover(function(){
-  $('#hd2').toggle();
+  $('#hd2').toggle(3000);
 });
 $('.content #w3').hover(function(){
-  $('#hd3').toggle();
+  $('#hd3').toggle(3000);
 });
 $('.content #w4').hover(function(){
-  $('#hd4').toggle();
+  $('#hd4').toggle(3000);
 });
 $('.content #w5').hover(function(){
-  $('#hd5').toggle();
+  $('#hd5').toggle(3000);
 });
 $('.content #w6').hover(function(){
-  $('#hd6').toggle();
+  $('#hd6').toggle(3000);
 });
 $('.content #w7').hover(function(){
-  $('#hd7').toggle();
+  $('#hd7').toggle(3000);
 });
 $('.content #w8').hover(function(){
-  $('#hd8').toggle();
+  $('#hd8').toggle(3000);
 });
 var swiper = new Swiper('.swiper-container', {
   effect: 'coverflow',
