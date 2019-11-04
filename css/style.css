@@ -100,30 +100,11 @@ div #port{
 #port img{
   margin-left: 5px;
 }
-/* form */
 
-.col-md-3{
-  position: relative;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  text-align: center;
-}
-.col-md-3 img{
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.col-md-3 h6{
-  display: none;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 500;
-}
 #subs{
   background: url('../images/assets/backgrounds/c_image.jpg');
   background-position: center;
   background-size: cover;
-  /* text-align: center; */
 }
 
 .box{
