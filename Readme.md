@@ -29,7 +29,7 @@ mwiruki@outlook.com
 # license
 MIT License
 
-Copyright (c) [2019] [Brian Mwiruki]
+Copyright (c) 2019 **Brian Mwiruki**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
