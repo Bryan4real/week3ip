@@ -10,8 +10,6 @@ $('.box').submit(function(event){
     event.preventDefault();
 });
 
-
-
 $('#design').click(function(){
 $('#design p').toggle();
 $('#design img').toggle();
