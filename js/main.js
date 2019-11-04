@@ -7,6 +7,17 @@ $('.box').submit(function(event){
   $('.email').text(mail);
   $('.msg').text(yname);
 
+  if(yname == ""){
+    alert("Enter your name");
+  }else if (mail == "") {
+    alert("Enter your Email");
+  }else if (msg == "") {
+    alert("Enter your message");
+  }
+  else{
+    alert("Thank you "+yname+" for reaching out");
+  }
+
     event.preventDefault();
 });
 
