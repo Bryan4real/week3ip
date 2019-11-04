@@ -101,7 +101,7 @@ div #port{
 #hd1,#hd2,#hd3,#hd4,#hd5,#hd6,#hd7,#hd8{
   position: absolute;
   z-index: 1;
-  margin: auto;
+  margin-top: 50%;
 }
 #subs{
   background: url('../images/assets/backgrounds/c_image.jpg');
@@ -198,7 +198,7 @@ margin-right: auto;
 .card{
   position: relative;
   background: #fff;
-  width: 250px;yname
+  width: 250px;
   height: 250px;
   margin: 3% auto;
 }
@@ -213,9 +213,10 @@ margin-right: auto;
 }
 .card .sliderText{
   position: relative;
-  width: 100%;
+  width: auto;
   height: 30px;
   display: none;
+  margin-left: 8%;
   justify-content: center;
   align-items: center;
   background: gray;
