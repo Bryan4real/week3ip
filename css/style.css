@@ -170,14 +170,14 @@ margin-bottom: 3%;
   color: #fff;
   text-align: center;
 }
-.social{
-  image-orientation: center;
-  display: flex;
+#sin{
+  width: 60%;
   margin: auto;
   margin-top: 3%;
 }
-.social img{
-  margin-left: 20px;
+#sin img{
+margin-left: auto;
+margin-right: auto;
 }
 #ftr{
   display: block;
