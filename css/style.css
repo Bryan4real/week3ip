@@ -130,6 +130,10 @@ div #port{
   margin: auto;
   margin-bottom: 3%;
 }
+#submit:hover{
+  background-color: White;
+  color: #000;
+}
 #name, #email{
 margin-top: 1%;
 margin-bottom: 3%;
@@ -181,6 +185,10 @@ margin-bottom: 3%;
   margin-top: 2%;
 }
 /* swoper */
+.port{
+  margin-left: auto;
+  margin-right: auto;
+}
 .card{
   position: relative;
   background: #fff;
