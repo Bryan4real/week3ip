@@ -97,6 +97,11 @@ div #port{
 #port img{
   margin-left: 5px;
 }
+#hd1,#hd2,#hd3,#hd4,#hd5,#hd6,#hd7,#hd8{
+  position: absolute;
+  z-index: 1;
+  margin: auto;
+}
 #subs{
   background: url('../images/assets/backgrounds/c_image.jpg');
   background-position: center;
