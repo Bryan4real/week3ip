@@ -100,8 +100,20 @@ div #port{
 }
 #hd1,#hd2,#hd3,#hd4,#hd5,#hd6,#hd7,#hd8{
   position: absolute;
-  z-index: 1;
-  margin-top: 50%;
+  background-color: gray;
+  text-align: center;
+  border: 1px solid #fff;
+  display: none;
+  margin-left: 22%;
+  margin-top: 25%;
+}
+.col-md-3{
+  text-align: center;
+  width: 65%;
+}
+.col-md-3 img{
+  width: 88%;
+  height: 88%;
 }
 #subs{
   background: url('../images/assets/backgrounds/c_image.jpg');
@@ -147,30 +159,27 @@ margin-bottom: 3%;
 }
 .box #name{
   height: 35px;
-  width:30%;
+  width:39%;
   line-height: 8px;
   float: left;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .box #email{
   height: 35px;
-  width:30%;
+  width:39%;
   line-height: 8px;
   float: right;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 .box input,textarea{
   background: none;
   color: #fff;
-  border-radius: 10px;
 }
 .box input::placeholder{
     color: #fff;
-    text-align: center;
 }
 .box textarea::placeholder{
   color: #fff;
-  text-align: center;
 }
 #port h6{
   text-align: center;
@@ -189,54 +198,4 @@ margin-right: auto;
   display: block;
   text-align: center;
   margin-top: 2%;
-}
-/* swoper */
-.port{
-  margin-left: auto;
-  margin-right: auto;
-}
-.card{
-  position: relative;
-  background: #fff;
-  width: 250px;
-  height: 250px;
-  margin: 3% auto;
-}
-.card .content{
-  width: 250px;
-  padding: 10px;
-  box-sizing: border-box;
-  image-orientation: center;
-}
-.card .content img{
-  width: 95%;
-}
-.card .sliderText{
-  position: relative;
-  width: auto;
-  height: 30px;
-  display: none;
-  margin-left: 8%;
-  justify-content: center;
-  align-items: center;
-  background: gray;
-}
-.card .sliderText h3{
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
-  margin: auto;
-  padding: auto;
-}
-.swiper-slide{
-  width: 400px;
-}
-.swiper-slide:nth-child(1).sliderText{
-  background: #2196f3;
-}
-.swiper-slide:nth-child(2).sliderText{
-  background: #e91e63;
-}
-.swiper-slide:nth-child(3).sliderText{
-  background: #c3d41a;
 }
